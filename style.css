@@ -1,0 +1,95 @@
+h3{
+    font-size: 30px;
+    text-align: right;
+    color: cornflowerblue;
+}
+.nav{
+    list-style-type: none;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.nav li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+.bgcolor{
+    background-color: crimson;
+}
+#bgurl{
+    text-align: center;
+    background-repeat: no-repeat;
+}
+#bgurl:hover{
+    opacity: 0.6;
+}
+#bgurl img{
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: contain;
+}
+#hover{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(235, 54, 175);
+    transition: width 2s;
+    float: left;
+}
+#hover:hover{
+    width: 300px;
+    background-color: rgb(63, 223, 89);
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    z-index: 1;
+}.dropdown:hover .dropdown-content{
+    display: block;
+}
+#text{
+    background-color: peru;
+    border: 10px solid red;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    text-indent: 20%;
+}
+.text{
+    list-style-type: none;
+    text-align: center;
+}
+.text li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 12px;
+}
+#tt1{
+    background-color: peru;
+    border: 10px solid red;
+    padding: 5px;
+    margin: 4px;
+    text-align: justify;
+    text-indent: 20%;
+}
+#tt2{
+    background-color: peru;
+    border: 10px solid red;
+    padding: 5px;
+    margin: 4px;
+    text-align: justify;
+    text-indent: 20%;
+}
+#tt3{
+    background-color: peru;
+    border: 10px solid red;
+    padding: 5px;
+    margin: 4px;
+    text-align: justify;
+    text-indent: 20%;
+}
